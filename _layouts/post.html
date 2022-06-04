@@ -90,7 +90,7 @@ layout: default
                 <hr style="visibility: hidden;">
 
             <!-- 打赏功能 -->
-            <div>
+            <!-- <div>
                 <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
                 <div>☛兄dei，请我喝杯茶☚</div>
                 <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
@@ -117,7 +117,7 @@ layout: default
                 </div>
                 </div>
                 
-            </div>
+            </div> -->
             
 
    <!--  上一篇或者下一篇post按钮 -->
@@ -283,9 +283,9 @@ layout: default
 {% endif %}
 
 
-{% if site.anchorjs %}
+<!-- {% if site.anchorjs %} -->
 <!-- async load function -->
-<script>
+<!-- <script>
     function async(u, c) {
       var d = document, t = 'script',
           o = d.createElement(t),
@@ -294,9 +294,9 @@ layout: default
       if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
       s.parentNode.insertBefore(o, s);
     }
-</script>
+</script> -->
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
+<!-- <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
@@ -305,8 +305,8 @@ layout: default
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
-</script>
-<style>
+</script> -->
+<!-- <style>
     /* place left on bigger screen */
     @media all and (min-width: 800px) {
         .anchorjs-link{
@@ -316,5 +316,5 @@ layout: default
             margin-top : -0.1em;
         }
     }
-</style>
-{% endif %}
+</style> -->
+<!-- {% endif %} -->

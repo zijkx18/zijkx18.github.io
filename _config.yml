@@ -13,7 +13,6 @@ future: true
 
 # SNS settings
 RSS: true
-# weibo_username:     2524618644
 zhihu_username:     zijkx
 github_username:    zijkx
 # linkedin_username:  zijkx
@@ -89,7 +88,7 @@ ga_domain: auto
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: “大圣，此去欲何？”<br>“踏南天，碎凌霄”<br>“如若一去不回……？”<br>“便一去不回！💪"
+sidebar-about-description: "设限，然后沉迷"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -108,44 +107,3 @@ service-worker: false
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
-
-
-# Friends
-friends: [
-    {
-	title: "道生化工",
-	href: "https://www.6chemical.com/"
-    },
-    {
-	title: "Junhua's Blog",
-	href: "https://blog.searchinfogo.com"
-    },{
-	title: "卟败灬筱龙",
-	href: "http://ilongge.cn/"
-    },{
-	title: "耀日庄主的博客",
-	href: "https://sunbossrs.github.io/"
-    },{
-	title: "Hope",
-	href: "https://leohope.com/"
-    },{
-	title: "五斤",
-	href: "https://www.chairyfish.com/"
-    },{
-	title: "asdfv1929",
-	href: "https://asdfv1929.github.io/"
-    },{
-	title: "Oragekk Blog",
-	href: "https://oragekk.me/"
-    },{
-	title: "宇宙湾",
-	href: "https://yuzhouwan.com"
-    } ,{
-	title: "孙不服",
-	href: "https://sunbufu.github.io"
-    } ,{
-	title: "Chen Lixiang",
-	href: "https://imroot.cn"
-    } 
-]
